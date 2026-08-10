@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loja de Informática</title>
+</head>
+<body>
+	<h3>Produtos para Compra</h3>
+
+	<form action="EscolherLivroServlet" method="get" style="display:inline-block; text-align:center; margin:20px;">
+		<img src="images/Fone.jpg" alt="Fone BLuetooth" width="120"><br>
+		<label>Fone Bluetooth</label><br>
+		<label>R$ 39,90</label><br>
+		<input type="hidden" name="nomeProduto" value="fone">
+		<input type="hidden" name="precoProduto" value="39.90">
+		<input type="checkbox" id="Comprar" name="Comprar" value="checked">
+		<label for="Comprar">Comprar</label>
+	</form>
+
+	<form action="EscolherLivroServlet" method="get" style="display:inline-block; text-align:center; margin:20px;">
+		<img src="images/tvdetubo.jpg" alt="Tv de Tubo" width="120"><br>
+		<label>TV de Tubo</label><br>
+		<label>R$ 32,50</label><br>
+		<input type="hidden" name="nomeProduto" value="tvdetubo">
+		<input type="hidden" name="precoProduto" value="32.50">
+		<input type="checkbox" id="Comprar" name="Comprar" value="sim">
+		<label for="Comprar">Comprar</label>
+	</form>
+
+	<form action="EscolherLivroServlet" method="get" style="display:inline-block; text-align:center; margin:20px;">
+		<img src="images/controle.jpg" alt="Controle Nintendo 64" width="120"><br>
+		<label>Controle Nintendo 64</label><br>
+		<label>R$ 28,00</label><br>
+		<input type="hidden" name="nomeProduto" value="controle">
+		<input type="hidden" name="precoProduto" value="28.00">
+		<input type="checkbox" id="Comprar" name="Comprar" value="sim">
+		<label for="Comprar">Comprar</label>
+	</form>
+	
+	<form action="EscolherLivroServlet" method="get" style="display:inline-block; text-align:center; margin:20px;">
+		<img src="images/psvita.jpg" alt="PS Vita" width="120"><br>
+		<label>PS Vita</label><br>
+		<label>R$ 28,00</label><br>
+		<input type="hidden" name="nomeProduto" value="psvita">
+		<input type="hidden" name="precoProduto" value="28.00">
+		<input type="checkbox" id="Comprar" name="Comprar" value="sim">
+		<label for="Comprar">Comprar</label>
+	</form>
+	
+	<form action="Login.jsp" method="get" >
+		<p><input type="button" name="FecharCarrinho" value="Fechar Carrrinho"></p>
+	</form>
+
+</body>
+</html>
