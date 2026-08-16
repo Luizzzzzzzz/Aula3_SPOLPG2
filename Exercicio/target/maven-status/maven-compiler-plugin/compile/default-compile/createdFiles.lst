@@ -1,1 +1,4 @@
+Controller\LoginServlet.class
+Controller\LogoutServlet.class
 Controller\EnviaCookies.class
+Controller\FinalizarServlet.class

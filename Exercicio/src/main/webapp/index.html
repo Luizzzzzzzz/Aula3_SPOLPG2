@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Informática</title>
+</head>
+<body bgcolor="#F0F4F8">
+    <center>
+        <font face="Arial, Helvetica, sans-serif">
+            <h2>Loja de Informática - Produtos</h2>
+            <hr width="80%" color="#336699">
+            
+            <!-- O formulário continua enviando os dados para o Servlet EnviaCookies -->
+            <form action="EnviaCookies" method="POST">
+                <table border="1" cellpadding="15" cellspacing="0" bordercolor="#336699" bgcolor="#FFFFFF" width="70%">
+                    <tr bgcolor="#336699">
+                        <th><font color="#FFFFFF">Imagem</font></th>
+                        <th><font color="#FFFFFF">Descrição</font></th>
+                        <th><font color="#FFFFFF">Preço</font></th>
+                        <th><font color="#FFFFFF">Comprar</font></th>
+                    </tr>
+                    <!-- Produto 1 -->
+                    <tr>
+                        <td align="center"><img src="images/Fone.jpg" width="100" height="100" alt="Fone"></td>
+                        <td align="center">Fone de Ouvido Gamer</td>
+                        <td align="center">R$ 150,00</td>
+                        <td align="center">
+                            <input type="checkbox" name="produtos" value="images/Fone.jpg|Fone de Ouvido Gamer|150.00">
+                        </td>
+                    </tr>
+                    <!-- Produto 2 -->
+                    <tr>
+                        <td align="center"><img src="images/tvdetubo.jpg" width="100" height="100" alt="TV"></td>
+                        <td align="center">Monitor / TV de Tubo Retrô</td>
+                        <td align="center">R$ 200,00</td>
+                        <td align="center">
+                            <input type="checkbox" name="produtos" value="images/tvdetubo.jpg|Monitor TV de Tubo|200.00">
+                        </td>
+                    </tr>
+                    <!-- Produto 3 -->
+                    <tr>
+                        <td align="center"><img src="images/psvita.jpg" width="100" height="100" alt="PS Vita"></td>
+                        <td align="center">Console PS Vita</td>
+                        <td align="center">R$ 900,00</td>
+                        <td align="center">
+                            <input type="checkbox" name="produtos" value="images/psvita.jpg|Console PS Vita|900.00">
+                        </td>
+                    </tr>
+                    <!-- Produto 4 -->
+                    <tr>
+                        <td align="center"><img src="images/controle.jpg" width="100" height="100" alt="Controle"></td>
+                        <td align="center">Controle Sem Fio</td>
+                        <td align="center">R$ 250,00</td>
+                        <td align="center">
+                            <input type="checkbox" name="produtos" value="images/controle.jpg|Controle Sem Fio|250.00">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value=" Fechar Carrinho ">
+            </form>
+        </font>
+    </center>
+</body>
+</html>
